@@ -15,7 +15,7 @@ git init
 git add .
 git commit -m "Initial Commit"
 git status #Just to see
-ssh-keygen -t rsa -b 4096 -C "graphicx.mehfooz201@gmail.com"
+
 
 tail <path to id_rsa.pub> #add this key to your github a/c
 git remote add origin <ssh url.git>
